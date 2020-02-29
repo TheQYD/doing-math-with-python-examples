@@ -44,6 +44,22 @@ def pounds_to_kilograms():
 
     print('Mass in kilograms: {0}'.format(kilograms))
 
+# Temperature
+
+def celsius_to_fahrenheit():
+    celsius = float(input('Enter temperature in degrees Celsius: '))
+    fahrenheit = (celsius * (9.0/5.0)) + 32
+
+    print('Temperature in degrees Fahrenheit: {0}'.format(fahrenheit))
+
+def fahrenheit_to_celsius():
+    fahrenheit = float(input('Enter temperature in degrees Fahrenheit: '))
+    
+    print(fahrenheit - 32)
+    celsius = (fahrenheit - 32) * (5.0/9.0)
+
+    print('Temperature in degrees Celsius: {0}'.format(celsius))
+
 
 if __name__ == "__main__":
     print_menu()
@@ -60,4 +76,10 @@ if __name__ == "__main__":
 
     if choice == '4':
         pounds_to_kilograms()
+
+    if choice == '5':
+        celsius_to_fahrenheit()
+
+    if choice == '6':
+        fahrenheit_to_celsius()
 
