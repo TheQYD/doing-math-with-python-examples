@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 '''
 Unit Converter: Miles to Kilometers
@@ -21,6 +21,8 @@ def miles_to_kilometers():
     print ('Distance in kilometers: {0}'.format(kilometers))
 
 if __name__ == "__main__":
+
+  while True:
     print_menu()
     choice = str(input('Which conversion would you like to do?: '))
 
@@ -29,3 +31,7 @@ if __name__ == "__main__":
 
     if choice == '2':
         miles_to_kilometers()
+
+    answer = input('Would you like to quit? Press (y) for yes: ')
+    if answer == 'y':
+      break
