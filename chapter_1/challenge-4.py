@@ -14,6 +14,7 @@ def multiply(a,b):
 def divide(a,b):
   print('Result of Dividing First Fraction by the Second: {0}'.format(a/b))
 
+
 if __name__ == '__main__':
 
   while quit != 'y'
