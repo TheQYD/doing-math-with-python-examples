@@ -13,6 +13,7 @@ def roots(a, b, c):
   print('x1: {0}'.format(x_1))
   print('x2: {0}'.format(x_2))
 
+
 if __name__ == "__main__":
   
   while True:    
