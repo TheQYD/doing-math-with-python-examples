@@ -19,4 +19,6 @@ def read_csv(filename):
 
 if __name__ == '__main__':
   summer, highest_correlated = read_csv('correlate-summer.csv')
-  corr = find_
+  corr = find_corr_x_y(summer, highest_correlated)
+  print('Highest correlation: {0}'.format(corr))
+  scatter_plot(summer, highest_correlated)
