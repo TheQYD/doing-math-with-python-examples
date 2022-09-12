@@ -1,4 +1,4 @@
-#!/Library/Frameworks/Python.framework/Versions/3.9/bin/python3
+#!/usr/bin/env python3
 
 from sympy.plotting import plot
 from sympy import Symbol
