@@ -18,6 +18,7 @@ def transform(p):
   
   t = random.choice(transformations)
   x, y = t(p)
+  print(t(p))
   return x, y
 
 def build_trajectory(p, n):
