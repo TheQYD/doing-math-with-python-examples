@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 from sympy import Symbol, Derivative, sympify, pprint
-from sympy.core.sympifiy import SympifyError
+from sympy.core.sympify import SympifyError
 
 def derivative(f, var):
   var = Symbol(var)
-  d = derivative(f, var).doit()
+  d = Derivative(f, var).doit()
   pprint(d)
 
 if __name__ == '__main__':
