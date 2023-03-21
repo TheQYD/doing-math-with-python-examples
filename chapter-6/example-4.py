@@ -33,7 +33,7 @@ def build_trajectory(p, n):
   return x, y
 
 if __name__ == '__main__':
-  # Initial Point
+  
   p = (1, 1)
   n = int(input('Enter the number of iterations: '))
   x, y = build_trajectory(p, n)
